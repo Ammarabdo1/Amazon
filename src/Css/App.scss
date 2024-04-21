@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #EAEDED;
+}
+
+.App{
+    .Navbarr{
+        color: white;
+        background-color: #131921!important;
+
+        .NavbarToggler{
+            background-color: rgb(97, 97, 97);
+        }
+
+        .MainImg{
+            img{
+                width:100px;
+            }
+        }
+
+        .Location{
+            width:100px;
+            display:flex;
+            align-items: center;
+            .iconLocation{
+                color:gray;
+                font-size: 1.5rem;
+
+            }
+
+            p{
+                line-height: 18px;
+                font-weight: 600;
+                font-size: 1.2rem;
+                span{
+                    color: rgba(255, 255, 255, 0.801);
+                    font-size:.9rem;
+                    font-weight:400;
+                }
+            }
+
+            
+        }
+
+        .input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            select{
+                background-color: rgba(255, 255, 255, 0.95);
+                width:50px;
+                padding:10px 0px;
+                border-radius: 10px 0px 0px 10px;
+                outline: none;
+                border: none;
+
+            }                
+        }
+
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+                width: 600px;
+                height: 43.7px;
+                outline: none;
+                border: none;
+            }
+            button{
+                height: 43.7px;
+                width: 50px;
+                outline: none;
+                border: none;
+                border-radius: 0px 10px 10px 0px;
+                background-color: #FEBD69;
+                font-size: 1.1rem;
+
+            }
+        }
+
+        .lang{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+
+            img{
+                width:30px;
+                height:30px;
+            }
+
+            .inputs{
+                select{
+                    background-color: transparent;
+                    color: white;
+                    border:none;
+                    outline: none;
+                    width: 15px;
+
+                    option{
+                        width: 50px;
+                        outline: none;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        .SignIn{
+            margin-left:50px ;
+            width:150px;
+            justify-content: center;
+            align-items: center;
+            p{
+                color: white;
+                font-size: 1.2rem;
+                line-height: 20px;
+                font-weight: 600;
+
+                a{
+                    text-decoration: none;
+                    color: rgba(255, 255, 255, 0.904);
+                    font-size: .9rem;
+                    font-weight: 400;
+
+                    
+                }                
+            }
+
+        }
+
+        .Returns{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:90px;
+            margin-left: 5px;
+
+            p{
+                font-size: 1.2rem;
+                line-height: 20px;
+                font-weight: 600;
+            }
+            
+            span{
+                color: rgba(255, 255, 255, 0.904);
+                font-size: .9rem;
+                font-weight: 400;
+            }
+        }
+
+        .shopCar{
+            color: white;
+            font-size: 1.5rem;
+        }
+
+    }
+
+    .naveLinks{
+        background-color: #232F3E;
+        width:100%;
+        height: 45px;
+        padding: 10px 20px;
+
+        a{
+            color:white;
+            text-decoration: none;
+            margin-right:15px;
+        };
+
+    }
+
+    .header{
+        position: relative;
+        min-height:3300px;
+        .swiper {
+            width: 100%;
+            height: 85vh;
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+        
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+
+        }
+        
+
+        }     
+        
+        .cardsP1{
+            position: absolute;
+            top:350px;
+            z-index:999;
+
+            .card{
+                width: 350px;
+                height:400px;
+                background-color: white;
+                margin-bottom:70px;
+                margin-right:70px;
+                border-radius: 0px;
+
+                h5{
+                    font-size:1rem;
+                    margin:20px;
+                }
+
+                .position{
+                    position: relative;
+                    height: 300px;
+
+                    .position_topleft{
+                        z-index: 3;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        height:50%;
+                        width: 60%;
+                    }
+                    .position_topright{
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                        height:50%;
+                        width: 55%;
+                    }
+                    .position_bottomleft{
+                        z-index: 3;
+                        position: absolute;
+                        bottom: 0px;
+                        left: 0px;
+                        height:50%;
+                        width: 60%;
+                    }
+                    .position_bottomright{
+                        position: absolute;
+                        bottom: 0px;
+                        right: 0px;
+                        height:50%;
+                        width: 60%;
+                    }
+                }
+                .position7{
+                    position: relative;
+                    height: 300px;
+
+                    .position_topleft{
+                        z-index: 3;
+                        position: absolute;
+                        top: 0px;
+                        left: 20px;
+                        height:50%;
+                        width: 45%;
+
+                    }
+                    .position_topright{
+                        position: absolute;
+                        top: 0px;
+                        right: 20px;
+                        height: 50%;
+                        width: 45%;
+                    }
+                    .position_bottomleft{
+                        z-index: 3;
+                        position: absolute;
+                        bottom: 0px;
+                        left: 20px;
+                        height:50%;
+                        width: 45%;
+                    }
+                    .position_bottomright{
+                        position: absolute;
+                        bottom: 0px;
+                        right: 20px;
+                        height:50%;
+                        width: 45%;
+                    }
+                }
+
+                .singleImg{
+                    height: 280px;
+                    width: 90%;
+                    margin-left: 17px;
+                }
+
+                a{
+                    text-decoration: none;
+                    margin: 15px;
+                }
+
+            }
+            
+        }
+
+        .swiper_p1{
+
+            .swiper {
+                width: 100%;
+                height: 100%;
+                background-color: #eaeded;
+                padding: 20px 0;
+
+                .swiper-slide {
+                    margin: 10px 0;
+                    background-color: white;
+                    padding: 20px 0;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                    object-fit: contain !important;
+                }
+                }
+                
+            }
+                        
+        }
+
+          
+    }
+
+    footer{
+        background-color: #232f3e;
+        padding: 50px 0;
+
+        p{
+          color: white;
+          font-size: 20px;
+        }
+
+        .col-md-3{
+          padding: 0 20px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        a{
+          color: #DDD;
+          text-decoration: none;
+          margin: 5px 0;
+          font-size: 15px;
+        }
+
+        a:hover{
+          color: white;
+      }
+    }
+         
+
+}
